@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>のあちゃんマップ</title>
+        <style>
+            header {
+                text-align: center; /* 画像を中央に配置 */
+                padding: 20px;
+                background-color: #5a9fe5; /* 背景色（任意） */
+            }
+    
+            img {
+                width: 200px; /* 画像の幅（適宜変更） */
+                height: auto; /* 高さを自動調整 */
+                border-radius: 50%; /* 丸くする（不要なら削除） */
+            }
+        </style>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宮崎っ娘ウェブサイト</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #f39f31;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .map {
+            text-align: center;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>のあちゃん紹介</h1>
+        <p>のあちゃんの人生の奇跡を覗いてみよう！</p>
+    </header>
+    <nav>
+        <a href="#about">のあちゃんについて</a>
+        <a href="#gallery">写真で見るのあちゃん</a>
+        <a href="#access">アクセス</a>
+    </nav>
+    <section id="about">
+        <h2>のあちゃんについて</h2>
+        <p>人見知りで世間知らずだった、のあちゃん。そんな殻を破るため単身海外へ。飲食店のリーダー経験やホームレス生活の中で心を鍛えられ適応能力を身につける。帰国後は自身の経験をもとに海外渡航相談コミュニティの運営と電子書籍の執筆でこれから海外へ行きたい若者の背中を押す支援。そんな活動を通して自分自身も色々な方々から勇気をもらいながら新しい環境へ日々邁進する。</p>
+    </section>
+    <section id="gallery">
+        <h2>写真で見るのあちゃん</h2>
+        <div class="gallery">
+            <div>
+                <img src="miyazaki/アクティビティ.jpg" alt="風景写真1">
+                <p class="caption">友達と遊ぶのあちゃん</p>
+            </div>
+            <div>
+                <img src="miyazaki/バイク.jpg" alt="風景写真2">
+                <p class="caption">仲良くなったキャンパーたち</p>
+            </div>
+            <div>
+                <img src="miyazaki/ホームレス.jpg" alt="風景写真3">
+                <p class="caption">ホームレス生活時の家</p>
+            </div>
+        </div>
+    </section>
+    <section id="access">
+        <h2>アクセス情報</h2>
+        <p>所在地: 東京都ネバーランド市ネバーギブアップ</p>
+        <p>行き方: やる気から手の届く位置</p>
+        <div class="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086457468993!2d139.69170641592204!3d35.68948798019165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b8e4ba0d2a1%3A0x7a260eb5b5bc29a3!2z5p2x5Lqs6YOo5pel5pel44CB44CSMTYwLTAwMDMg5p2x5Lqs6YOo5pel5pel44Gu5YWo5bqD77yR5LiB55uu77yR77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1619031234567!5m2!1sja!2sjp" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 観光地紹介ウェブサイト. All rights reserved.</p>
+    </footer>
+</body>
+</html>
